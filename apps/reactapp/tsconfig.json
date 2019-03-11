@@ -1,0 +1,9 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es2015",
+    "types": ["node", "jest"]
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
