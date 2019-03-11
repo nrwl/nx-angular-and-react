@@ -1,0 +1,27 @@
+{
+  "npmScope": "happynrwl",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "angularapp": {
+      "tags": []
+    },
+    "angularapp-e2e": {
+      "tags": []
+    },
+    "reactapp": {
+      "tags": []
+    },
+    "reactapp-e2e": {
+      "tags": []
+    },
+    "ui": {
+      "tags": []
+    }
+  }
+}
