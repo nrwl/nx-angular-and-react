@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@happynrwl/ui": ["libs/ui/src/index.ts"]
+      "@happynrwl/ui": ["libs/ui/src/index.ts"],
+      "@happynrwl/ui-prod": ["dist/libs/ui/main.js"]
     }
   },
   "exclude": ["node_modules", "tmp"]
