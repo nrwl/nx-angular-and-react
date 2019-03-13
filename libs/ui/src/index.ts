@@ -1,1 +1,1 @@
-export * from './lib/greeting.element';
+export * from './lib/ui.module';

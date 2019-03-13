@@ -2,6 +2,15 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+// bootstrap shared web components
+import 'reflect-metadata';
+import 'zone.js/dist/zone';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { UiModule } from '@happynrwl/ui';
+platformBrowserDynamic()
+  .bootstrapModule(UiModule)
+  .catch(err => console.error(err));
+
 export const environment = {
   production: false
 };
