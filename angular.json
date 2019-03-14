@@ -234,6 +234,17 @@
       "projectType": "library",
       "prefix": "happynrwl",
       "architect": {
+        "build": {
+          "builder": "ngx-build-plus:build",
+          "options": {
+            "outputPath": "dist/libs/ui",
+            "index": "apps/reactapp/src/index.html",
+            "tsConfig": "libs/ui/tsconfig.lib.json",
+            "main": "libs/ui/src/main.ts",
+            "singleBundle": true,
+            "aot": true
+          }
+        },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
