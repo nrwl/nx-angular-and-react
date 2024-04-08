@@ -1,3 +1,5 @@
+> :warning: Outdated! Head over to [our docs](https://nx.dev/docs) to learn more.
+
 # Building Angular and React Applications Together With Nx
 
 Large companies often use multiple frontend frameworks to build their products. One product can be built with Angular, another one with React. These products, even though are built by different teams using different stacks, often share components and utilities.
